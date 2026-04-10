@@ -1,46 +1,63 @@
 # Privacy Policy
 
-**Effective Date:** March 31, 2026
+**Effective Date**: April 11, 2026 (Last Updated)
 
-**"The King's Way"** (hereinafter referred to as the "App") respects your privacy and is committed to protecting your personal data. This Privacy Policy informs you of our policies regarding the collection, use, and disclosure of personal data when you use our service, and the choices you have associated with that data.
+**\"The King's Way\"** (hereinafter referred to as \"the Service\") values your personal information and is committed to complying with global privacy standards, including the South Korean Personal Information Protection Act (PIPA), the Act on Promotion of Information and Communications Network Utilization and Information Protection, and the General Data Protection Regulation (GDPR) of the European Union.
 
-## 1. Information Collection and Use
-We collect several different types of information to provide and improve our service to you.
-- **Personal Data**: While using our App, we may ask you to provide us with certain personally identifiable information (via Google Sign-In or other OAuth providers), such as your Email address, First name and ID, and optionally a Profile picture.
-- **Usage & Progress Data**: Information on how the App is accessed and used, including your in-game progress, persona choices, and interactions with features like Jo-gang, Ratification, and Memorials.
-- **Device & Tracking Data**: We may use tracking technologies to track the activity on our App and hold certain information (e.g., Device IDs for advertising via Google AdMob).
+---
 
-## 2. Use of Data
-The App uses the collected data for various purposes:
-- To provide and maintain the service (including secure cloud-saving via Supabase)
-- To authenticate you and your progress linked to your account
-- To provide personalized in-game experiences (such as targeted wisdom and content based on your chosen persona like CEO, student, etc.)
-- To provide customer care and support
-- To monitor the usage of the App and detect technical issues
-- To serve advertisements (including rewarded video ads for in-game mechanics)
+## 1. Information We Collect
+We collect the following information to provide a smooth experience (data synchronization, personalized classical meditation, etc.).
 
-## 3. Third-Party Services
-We employ third-party companies and services to facilitate our App and analyze how our service is used. These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.
-- **Supabase**: Backend database and Authentication API.
-- **Google Sign-In**: Secure OAuth login processing.
-- **Google AdMob**: Ad serving network to handle tracking and ads correctly.
+- **Mandatory Information**: Email address, social login profile information (unique identification ID, name), service usage records (Jo-gang sessions, Royal Ratification decisions, governance logs).
+- **Automatically Collected Information**: Device identifiers (ADID/IDFA), IP address, OS version, app usage logs, cookies (for the web version).
+- **Collection Method**: Collected with consent during sign-up (social login) and automatically generated during app execution and usage.
 
-## 4. Device Permissions
-The App may require some device permissions, which operate on an optional opt-in basis:
-- **Network (Internet)**: Access needed for synchronization with the cloud server and loading ads.
-- **Notifications (Push)**: Needed to notify in-game events like recovering vitality points (mobile only).
-- **Audio (Vibrate)**: Providing haptic feedback functionality.
+## 2. Purpose of Using Personal Information
+- **Member Management**: Identity verification for service use, confirmation of sign-up intent, prevention of unauthorized use.
+- **Content Optimization**: Recommendation of classical meditations and wisdom based on the persona (CEO, student, office worker, etc.) set by the user.
+- **Data Sync and Recovery**: Cloud storage (utilizing Supabase) to maintain game progress (Day, etc.) across multiple devices.
+- **Monetization and Marketing**: Placement of personalized advertisements (Google AdMob) and statistical analysis for app service improvement.
 
-## 5. Data Security & Deletion
-The security of your data is important to us. Your data is stored securely using industry-standard protocols.
-You have the right to request the deletion of your personal data at any time by deleting your account within the App settings or contacting us directly via Google Account revocation. Upon account deletion, all associated usage and personal data is permanently deleted from our servers.
+## 3. AI-Based Services and Data Treatment (AI Governance)
+The Service utilizes AI (Large Language Models) to generate meditation sessions and Royal Meeting scenarios tailored to user tendencies.
+- **Data Treatment**: Text input by the user or persona information may be transmitted to and processed by AI models (such as external APIs from OpenAI, etc.).
+- **Data Protection**: Transmitted data is used solely for the purpose of a one-time process to provide the service and **is guaranteed not to be reused as training data for the AI model.**
 
-## 6. Children's Privacy
-Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. If you become aware of unintended child data being added, please contact us to have it scrubbed immediately.
+## 4. Third-Party Provision and Delegation of Personal Information
+To ensure stable service operation, we entrust data processing to the following trusted professional companies.
 
-## 7. Contact Us
-If you have any questions about this Privacy Policy, please contact us through this repository or the developer contact email listed on the respective app stores.
-- **Developer**: ChaPDCha
-- **Repository**: [The King's Way Privacy Repository](https://github.com/ChaPDCha/the-kingsway-privacy-policy)
+| Provider | Purpose of Delegation | Retention and Usage Period |
+| :--- | :--- | :--- |
+| **Supabase (PostgreSQL)** | Cloud storage of user database and authentication | Until withdrawal or termination of delegation contract |
+| **Google AdMob / Firebase** | Ad placement, personalized ads, and app usage statistics | Until purpose is achieved or according to regulations |
+| **Google Sign-In** | Social login authentication | Until authentication is complete |
 
-We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy clearly on this repository.
+## 5. Technical and Organizational Security Measures
+The Service takes the following measures to protect user data:
+- **Encrypted Transmission**: All data is encrypted using the TLS (Transport Layer Security) protocol for secure transmission.
+- **Access Control**: Minimize access rights to the database and protect administrator accounts through two-factor authentication (2FA).
+- **Data Minimization**: We only collect information strictly necessary for providing the service and do not request unnecessary sensitive information.
+
+## 6. Data Deletion and Disposal (Including Grace Period)
+The Service respects the user's data sovereignty and follows these policies upon account withdrawal:
+- **Grace Period**: To prevent data loss due to user error and provide a chance for recovery, **data is not immediately destroyed upon withdrawal request but is held for a grace period of 15 days**. You can cancel the withdrawal request by logging in again within this period.
+- **Permanent Destruction**: Data for which the grace period has ended is permanently deleted using technical methods that make it impossible to reproduce on the server.
+- **Legal Storage**: Data that must be preserved by law, such as the Electronic Commerce Act, will be destroyed after being managed separately for the legally required period.
+
+## 7. User Rights (Including GDPR/CCPA)
+Users may view, edit, or object to the processing of their personal information and request deletion at any time.
+- **Data Portability and Right to be Forgotten**: For EU residents, we guarantee the right to data portability and the right to complete deletion under the GDPR.
+- **Rights under CCPA**: For California residents, we respect your right to request that your information not be sold to third parties. We do not sell your personal information.
+
+## 8. Children's Privacy
+The Service does not knowingly collect data from children under the age of 14 (or the minimum age in accordance with local regulations). If it is discovered that a child has mistakenly registered, we will take immediate action to delete the information upon the request of a guardian.
+
+## 9. Data Protection Officer and Contact Information
+For inquiries regarding this policy or to exercise your rights, please contact us through the following channels:
+- **Developer/Officer**: ChaPDCha
+- **Contact Email**: [chapdcha@gmail.com](mailto:chapdcha@gmail.com)
+- **Official Repository**: [GitHub Repository](https://github.com/ChaPDCha/the-kingsway-privacy-policy)
+
+---
+This policy may be updated from time to time to reflect changes in laws and service modifications.
